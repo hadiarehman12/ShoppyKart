@@ -1,0 +1,225 @@
+
+.navbar-nav{
+    font-weight: 470;
+}
+
+
+.jk{
+    margin-top: 13px;
+}
+.hn{
+    text-align: end;
+}
+.nav-item{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    margin-top: 3px ;
+}
+.hj{
+    display: flex;
+    text-align: end;
+}
+.k{
+    font-size: 6vw;
+}
+.p{
+   
+    font-size: 1.5vw;
+}
+
+.h{
+    font-size: 2vw;
+
+}
+
+
+.d2 {
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.nn{
+    font-size: 2.2vw;
+}
+.jl{
+   font-size: 1vw; 
+  
+}
+.card button{
+    background: transparent;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-size: 16px;
+    transition: 0.3s;
+    padding: 8px 26px;
+}
+.card:hover button{
+background-color:  #ef233c;
+}
+
+.full-height-carousel{
+    height: 70vh;
+}
+ .full-height-carousel .carousel-inner {
+height: 100%;
+ }
+ .full-height-carousel .carousel-item{
+    height: 70vh;
+ }
+ .full-height-carousel .carousel-item img{
+    height: 100%;
+    object-fit:cover;
+}
+
+
+.card-text {
+    line-height: 26px;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    font-size: large;
+    
+}
+
+@media screen and (max-width:2480px){
+    .carousel-caption{
+   margin-bottom: 1.4%; 
+    }
+    
+}
+
+@media screen and (max-width:1900px){
+    .carousel-caption{
+   margin-bottom: 1%; 
+    }
+    
+}
+@media screen  and (max-width:1200px ) {
+    .carousel-caption{
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width:770px){
+    .carousel-caption{
+     margin-bottom: 13%;
+    }
+    .k{
+        font-size: 7.95vw;
+    }
+}
+@media screen and (max-width:770px){
+    .nn{
+   font-size: 6.5vw; ;
+    }
+}
+@media screen and (max-width:530px){
+    .hnh{
+     margin-bottom: 13%;
+    }
+    
+    
+}
+@media screen and (max-width:550px){
+    .carousel-caption{
+   margin-bottom: 1%; 
+    }
+    .k{
+        font-size: 12vw;
+    }
+}
+.a4{
+    background-image: url(Images/banner7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ww3{
+    background-image: url(Images/banner7.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.bh{
+    background-image: url(Images/banner3.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    padding: 9% 5%;
+}
+.a4{background-image: url(Images/banner7.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.aw{background-image: url(Images/banner6.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.lk button{
+    transition: 0.5s;
+    border: 1px solid white;
+    padding: 5px 25px;
+}
+.lk button:hover{
+background-color: #ef233c;
+border-color: #ef233c;
+}
+.navbar a{
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    color: #2b2d42;
+    font-size: 13px;
+}
+.navbar a::after{
+   
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#ef233c;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   
+}
+  .navbar a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .navbar a:hover{
+    color: #ef233c;
+    
+  }
+  .navbar .dropdown span{
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    color: #2b2d42;
+    font-size: 13px;
+}
+.navbar .dropdown span::after{
+   
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#ef233c;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   
+}
+  .navbar .dropdown span:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .navbar .dropdown span:hover{
+    color: #ef233c;
+  }
+  

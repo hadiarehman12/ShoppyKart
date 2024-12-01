@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="shoppykart.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>shoppykart bolg</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  .rt {
+    border-color: #e9e7e7;
+    border-radius: 9px;
+  }
+
+  .bg {
+    background-image: url(Images/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<body class="bg-body-tertiary">
+  <nav class="navbar bg-white navbar-expand-lg position-sticky top-0 bg-white z-1">
+    <div class="container-fluid">
+      <span class="navbar-brand fw-bold fs-3 ms-5" href="#"><span class="text-danger">SHOPPY</span>KART</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2  mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link ms-2 " aria-current="page" href="Shoppykart.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-2 " href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <span class="nav-link ms-2 dropdown " href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS <i class='bx bx-chevron-down'></i>
+            </span>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item mb-2"
+                  href="file:///C:/Users/sommi/Desktop/Html/Shoppy%20cart/product.html">Products</a></li>
+              <li><a class="dropdown-item mb-2" href="product-sin.html">Products Single</a></li>
+              <li><a class="dropdown-item mb-2" href="cart.html">Cart Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <span class="nav-link ms-2 dropdown text-danger" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              PAGES <i class='bx bx-chevron-down'></i>
+            </span>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item mb-2" href="blog.html">Blog Page</a></li>
+              <li><a class="dropdown-item mb-2" href="#">Blog Single</a></li>
+              <li><a class="dropdown-item mb-2" href="#">Elements</a></li>
+              <li><a class="dropdown-item mb-2" href="#">Error Page</a></li>
+              <li><a class="dropdown-item mb-2" href="#">FaQ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-2 " href="contact.html">CONTACT</a>
+          </li>
+          <li>
+            <i type="icon" class=" nav-link nav-item fw-bolder jk  ms-2 me-4 mt-3 fa-solid fa-magnifying-glass fa-lg"
+              data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+            </i>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content mt-4">
+                  <div class="modal-header bg-black">
+                    <h1 class="modal-title text-white fs-4 " id="exampleModalLabel">Search here</h1>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-black">
+                    <input type="search" placeholder="Enter Keywork here">
+                    <i type="icon" class=" fa-solid fa-magnifying-glass fa-lg text-white mt-5 text-white"></i>
+                  </div>
+                  <div class="modal-footer"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="hj">
+
+          <button class="bg-danger text-white btn ps-4 mt-1 pe-4 text-lg">
+            <i class="fa-solid fa-user me-1"></i>
+            <span class="fw-bold">Log in</span>
+          </button>
+
+          <button class="bg-danger text-white btn ps-4 ms-2 mt-1  pe-4">
+            <i class="fa-solid fa-bag-shopping me-1"></i>
+            <span class="fw-bold">Cart</span>
+          </button>
+
+          <i class='bx bx-moon fs-3 pt-2 ps-4'></i>
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="bg d-lg-flex text-white bg-opacity-50 bg-black " style="padding: 7%;">
+    <p class="fs-1  fw-medium">Blog Page</p>
+    <p class="pt-3 fw-medium ms-auto d-flex"><a class="text-danger page-link"
+        href="file:///C:/Users/sommi/Desktop/Html/Shoppy%20cart/Shoppykart.html#">Home</a><i
+        class="fas fa-angle-double-right mx-2 pt-1"> </i>Blog Page</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mt-5">
+        <div class="card rt mb-3">
+          <img src="Images/banner1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title"><span class="text-danger pe-2 ps-2 fw-bold"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 90%;">News</span></p>
+            <p class="card-text fw-bold fs-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, <br>ultrices
+              in ligula.
+            </p>
+            <p class="card-text text-body-secondary " style="font-size: large;">Lorem ipsum viverra feugiat. Pellen
+              tesque libero ut justo, ultrices in ligula. Semper at <br>tempufddfel. Lorem ipsum dolor sit ametelit
+              ipsum dolor.Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            <div class="d-flex">
+              <img src="Images/team2.jpg" class="img-fluid ms-4 " alt="..."
+                style="width:63px ;height: 65px; border: 4px solid hsl(180deg 12% 98% / 18%);; border-radius: 90000px ;">
+              <p class="fw-medium pe-5 pt-3 " style="font-size: medium;"><span class="text-secondary"> by</span> Lynda
+                Stone
+                <span class="opacity-50 pt-3 ps-5 ">20 Aug,2021</span>
+              </p>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="card rt mt-5">
+          <img src="Images/banner3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title"><span class="text-danger pe-2 ps-2 fw-bold"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 90%;">News</span></p>
+            <p class="card-text fw-bold fs-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, <br>ultrices
+              in ligula.
+            </p>
+            <p class="card-text text-body-secondary " style="font-size: large;">Lorem ipsum viverra feugiat. Pellen
+              tesque libero ut justo, ultrices in ligula. Semper at <br>tempufddfel. Lorem ipsum dolor sit ametelit
+              ipsum dolor.Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            <div class="d-flex">
+              <img src="Images/team1.jpg" class="img-fluid ms-4 " alt="..."
+                style="width:63px ;height: 65px; border: 4px solid hsl(180deg 12% 98% / 18%);; border-radius: 90000px ;">
+              <p class="fw-medium pe-5 pt-3 " style="font-size: medium;"><span class="text-secondary"> by</span> Lynda
+                Stone
+                <span class="opacity-50 pt-3 ps-5 ">20 Aug,2021</span>
+              </p>
+
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card rt mt-5">
+          <img src="Images/banner3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title"><span class="text-danger pe-2 ps-2 fw-bold"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 90%;">News</span></p>
+            <p class="card-text fw-bold fs-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, <br>ultrices
+              in ligula.
+            </p>
+            <p class="card-text text-body-secondary " style="font-size: large;">Lorem ipsum viverra feugiat. Pellen
+              tesque libero ut justo, ultrices in ligula. Semper at <br>tempufddfel. Lorem ipsum dolor sit ametelit
+              ipsum dolor.Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            <div class="d-flex">
+              <img src="Images/team4.jpg" class="img-fluid ms-4 " alt="..."
+                style="width:63px ;height: 65px; border: 4px solid hsl(180deg 12% 98% / 18%);; border-radius: 90000px ;">
+              <p class="fw-medium pe-5 pt-3 " style="font-size: medium;"><span class="text-secondary"> by</span> David
+                Nelson
+                <span class="opacity-50 pt-3 ps-5 ">20 Aug,2021</span>
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card rt mt-5">
+          <img src="Images/banner4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title"><span class="text-danger pe-2 ps-2 fw-bold"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 90%;">News</span></p>
+            <p class="card-text fw-bold fs-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, <br>ultrices
+              in ligula.
+            </p>
+            <p class="card-text text-body-secondary " style="font-size: large;">Lorem ipsum viverra feugiat. Pellen
+              tesque libero ut justo, ultrices in ligula. Semper at <br>tempufddfel. Lorem ipsum dolor sit ametelit
+              ipsum dolor.Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+            <div class="d-flex">
+              <img src="Images/team3.jpg" class="img-fluid ms-4 " alt="..."
+                style="width:63px ;height: 65px; border: 4px solid hsl(180deg 12% 98% / 18%);; border-radius: 90000px ;">
+              <p class="fw-medium pe-5 pt-3 " style="font-size: medium;"><span class="text-secondary"> by</span> David
+                Nelson
+                <span class="opacity-50 pt-3 ps-5 ">20 Aug,2021</span>
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 mt-5 ">
+        <div class="card rt text-bg-light mb-3" style="max-width: 22rem;">
+
+          <div class="card-body bg-white">
+            <h5 class="card-title">Categories</h5>
+            <p class="card-text fw-bold "><i class="fa-solid fa-angles-right pe-2 text-danger"></i>Business<span
+                class="text-black pe-2 ps-2"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 70%; margin-left:50%;">4</span>
+            </p>
+            <p class="card-text fw-bold "><i class="fa-solid fa-angles-right pe-2 text-danger"></i>Marketing<span
+                class="text-black pe-2 ps-2"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 70%; margin-left:44%;">8</span>
+            </p>
+            <p class="card-text fw-bold "><i class="fa-solid fa-angles-right pe-2 text-danger"></i>Fashion<span
+                class="text-black pe-2 ps-2"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 70%; margin-left:53%;">8</span>
+            </p>
+            <p class="card-text fw-bold "><i class="fa-solid fa-angles-right pe-2 text-danger"></i>Clothing<span
+                class="text-black pe-2 ps-2"
+                style="background-color: rgb(238, 238, 238) ;border-radius:.2rem; font-size: 70%; margin-left:50%;">3</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card rt text-bg-light mb-3 mt-5" style="max-width: 22rem;">
+          <div class="card-body bg-white">
+            <h5 class="card-title">Recent post</h5>
+
+            <div class="card rt mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Images/d1.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 ">
+                  <div class="card-body ">
+                    <p class="card-title fw-bold"> Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.<span
+                        class="card-text"><small class="text-body-secondary"><br>Aug 11, 2021</small></span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card rt mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Images/d2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 ">
+                  <div class="card-body ">
+                    <p class="card-title fw-bold"> Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.<span
+                        class="card-text"><small class="text-body-secondary"><br>Aug 22, 2021</small></span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card rt mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Images/d4.jpg" class="img-fluid rounded-start " alt="...">
+                </div>
+                <div class="col-md-8 ">
+                  <div class="card-body ">
+                    <p class="card-title fw-bold"> Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.<span
+                        class="card-text"><small class="text-body-secondary"><br>Aug 23, 2021</small></span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card rt mb-3 border-white">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Images/d9.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 ">
+                  <div class="card-body ">
+                    <p class="card-title fw-bold"> Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.<span
+                        class="card-text"><small class="text-body-secondary"><br>Aug 26, 2021</small></span></p>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="card rt text-bg-light mb-3 mt-5" style="max-width: 22rem;">
+
+          <div class="card-body bg-white">
+            <h5 class="card-title">Gallery</h5>
+            <img src="Images/d3.jpg " class="img-fluid " style="max-width: 30%;" alt="...">
+            <img src="Images/d4.jpg" class="img-fluid " style="max-width: 30%;" alt="...">
+            <img src="Images/d5.jpg" class="img-fluid " style="max-width: 30%;" alt="...">
+            <img src="Images/d6.jpg" class="img-fluid pt-2 " style="max-width: 30%;" alt="...">
+            <img src="Images/d7.jpg" class="img-fluid pt-2 " style="max-width: 30%;" alt="...">
+            <img src="Images/d8.jpg" class="img-fluid pt-2 " style="max-width: 30%;" alt="...">
+
+
+
+
+
+          </div>
+        </div>
+        <div class="card rt text-bg-light mb-3 mt-5" style="max-width: 22rem;">
+
+          <div class="card-body bg-white">
+            <h5 class="card-title">Tags</h5>
+
+
+            <input class="btn  mt-3 fw-bold "
+              style=" background-color: rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 5rem;"
+              type="sale" value="Sale">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 7rem;"
+              type="Fashion" value="Fashion">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 5rem;"
+              type="Quality" value="Quality">
+            <input class="btn  mt-3 fw-bold  "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 7rem;"
+              type="Discount" value="Discount">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 5rem;"
+              type="Brands" value="Brands">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 5rem;"
+              type="Price" value="Price">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 5rem;"
+              type="Quality" value="Quality">
+            <input class="btn  mt-3 fw-bold "
+              style="background-color:  rgb(248, 248, 248); border: rgb(213, 212, 212) solid 1px; max-width: 7rem;"
+              type="Marketing" value="Marketing">
+
+
+
+
+          </div>
+        </div>
+        <div class="card rt text-bg-light mb-3 mt-5" style="max-width: 22rem;">
+
+          <div class="card-body bg-white">
+            <h4 class="card-title fw-bold">Advertisement</h4>
+            <img src="Images/shop-3.jpg" class="img-fluid " style="max-width: 100%; margin-top: 5%;" alt="...">
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <div class="vv" style="border: 1px solid rgb(0, 0, 0); background-color: rgb(0, 0, 0); width: 100%; color: #888;">
+    <p class=" fs-1 text-white fw-bold " style="padding-left: 15%; padding-top: 5%;">Special Offer All Branded
+      Sandals are <br> Flat 50% Discount</p>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6" style="line-height: 1.2; font-size: 18px;">
+          <p class="fs-4 text-white fw-bold pt-3 pb-3" style="padding-left:15% ;">USeful Links</p>
+
+          <p class="rt " style="margin-left: 15%;">Home</p>
+          <p class="rt " style="margin-left: 15%;">About</p>
+          <p class="rt " style="margin-left: 15%;">Blogs</p>
+          <p class="rt " style="margin-left: 15%;">Contact</p>
+          <p class="rt " style="margin-left: 15%;">Suppoct</p>
+          <p class="rt " style="margin-left: 15%;">News & Media</p>
+          <p class="rt " style="margin-left: 15%;">Careers</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <p class="fs-4 text-white fw-bold pt-3" style="padding-left:15% ;">Information</p>
+
+          <p class="rt " style="margin-left: 15%;">Terms & Conditions</p>
+          <p class="rt" style="margin-left: 15%;">Delivery Terms</p>
+          <p class="rt" style="margin-left: 15%;">Order Tracking</p>
+          <p class="rt" style="margin-left: 15%;">Returns Policy</p>
+          <p class="rt" style="margin-left: 15%;">Privacy Policy</p>
+          <p class="rt" style="margin-left: 15%;">FAQ</p>
+          <p class="rt" style="margin-left: 15%;">The Shop</p>
+
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <p class="fs-4 text-white fw-bold pt-3" style="padding-left:15% ;">Address</p>
+
+          <p class="rt " style="margin-left: 15%;">London, UK</p>
+          <p class="rt " style="margin-left: 15%;">998 13h Street, Office 436</p>
+          <p class="rt " style="margin-left: 15%;">Harlo 61466</p>
+          <p class="rt " style="margin-left: 15%;">+(21) 255 999 8888</p>
+          <p class="rt " style="margin-left: 15%;">ShoppyKart@mail.com</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <p class="fs-4 text-white fw-bold pt-3" style="padding-left:15% ; ">Payment Method</p>
+          <i class='bx bxl-visa fs-2 ps-2 pe-2' style="margin-left: 15% ; background-color: white;"></i>
+          <i class="fa-brands fa-cc-discover fs-1 text-white ms-2 "></i> <i
+            class="fa-brands fa-cc-paypal fs-1 text-white ms-2"></i>
+          <i class="fa-brands fa-cc-mastercard fs-1 text-white ms-2"></i><br><i
+            class="fa-brands fa-cc-stripe fs-1 text-white ms-5 mt-3 ms-2"></i>
+          <i class="fa-brands fa-cc-jcb  fs-1 text-white ms-2"></i>
+        </div>
+        <p class="mt-5"> © 2021 ShoppyKart. All rights reserved | Designed by W3layouts</p>
+      </div>
+
+       
+    </div>
+      
+  </div>
+
+</body>
+
+</html>
